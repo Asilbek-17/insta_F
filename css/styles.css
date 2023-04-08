@@ -111,7 +111,7 @@ body{
     flex-direction: column;
     max-width: 900px;
     margin: 0 auto;
-    margin-top: 90px;
+    margin-top: 80px;
     margin-bottom: 30px;
     padding: 0;
     padding-top: 50px;
@@ -124,7 +124,7 @@ body{
     height: 200px;
     border-radius: 50%;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .link-item{
