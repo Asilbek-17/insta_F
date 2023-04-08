@@ -56,7 +56,8 @@ body{
     margin: 0;
     padding: 0;
     font-family: "Source Sans Pro", "Arial", sans-serif;
-    background-color: #333;
+    background-image: url('../images/bg.jpeg');
+    background-position: bottom center;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -92,9 +93,9 @@ body{
     color: lightyellow;
     margin-top: 10px;
     margin-bottom: 10px;
-    background-color: #dd00ff88;
+    background-color: #ff000088;
     padding: 5px 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 26px;
     text-align: center;
 }
@@ -106,6 +107,7 @@ body{
     flex-direction: column;
     max-width: 900px;
     margin: 0 auto;
+    margin-top: 70px;
     padding: 0;
     padding-top: 50px;
     list-style: none;
@@ -122,8 +124,8 @@ body{
 
 .link-item{
     width: 100%;
-    background-color: #dd00ff88;
-    border-radius: 5px;
+    background-color: #ff000088;
+    border-radius: 10px;
 }
 
 .site-link {
@@ -143,10 +145,8 @@ body{
 .text {
     display: block;
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 10px;
-    background-color: #dd00ff88;
+    background-color: #ff000088;
     padding: 5px 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     color: lightyellow;
 }
