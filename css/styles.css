@@ -88,6 +88,10 @@ body{
     padding-left: 20px;
 }
 
+.my-photo {
+    box-shadow: 0 5px 15px 0 rgb(0 0 0 / 50%);
+}
+
 .site-title {
     margin-top: 50px;
     color: lightyellow;
@@ -107,7 +111,8 @@ body{
     flex-direction: column;
     max-width: 900px;
     margin: 0 auto;
-    margin-top: 70px;
+    margin-top: 90px;
+    margin-bottom: 30px;
     padding: 0;
     padding-top: 50px;
     list-style: none;
@@ -126,6 +131,8 @@ body{
     width: 100%;
     background-color: #ff000088;
     border-radius: 10px;
+    box-shadow: 0 5px 15px 0 rgb(0 0 0 / 50%);
+
 }
 
 .site-link {
@@ -145,8 +152,11 @@ body{
 .text {
     display: block;
     text-align: center;
-    background-color: #ff000088;
+    background-color: #019a0199;
+    margin: 0;
+    margin-bottom: 10px;
     padding: 5px 10px;
     border-radius: 10px;
     color: lightyellow;
+    box-shadow: 0 5px 15px 0 rgb(0 0 0 / 50%);
 }
